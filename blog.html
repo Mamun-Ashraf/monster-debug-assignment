@@ -1,35 +1,83 @@
-Q-1: What is difference between local storage and session storage?
+<!DOCTYPE html>
+<html lang="en">
 
-Ans: Data, in localStorage doesn't expire but in session Storage is cleared when the page session ends (the browser or
-tab is closed).
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+</head>
 
-Q-2: What is difference between global scope and local scope?
+<body>
+    <header>
+        <h1>My first blog</h1>
+    </header>
+    <main>
+        <div style="margin-left: 5rem; font-size: 1.5rem;">
+            <p>
+                <b>Q-1: What is difference between local storage and session storage?</b>
+            </p>
 
-Ans: Global scope contains all of the things defined outside of all code blocks.A global variable has global scope and
-is accessible from anywhere in the code.
+            <p>
+                <b>Ans:</b> Data, in localStorage doesn't expire but in session Storage is cleared when the page session
+                ends
+                (the
+                browser or
+                tab is closed).
+            </p>
 
-Local scope contains things defined inside code blocks. A local variable has local scope and is only accessible where
-it’s declared.
+            <p>
+                <b>Q-2: What is difference between global scope and local scope?</b>
+            </p>
 
-Q-3: How event loop of Javascript works?
+            <p>
+                <b>Ans:</b> Global scope contains all of the things defined outside of all code blocks.A global variable
+                has
+                global
+                scope and
+                is accessible from anywhere in the code.
 
-Ans: The Event Loop works to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop
-will take the first event from the queue and will push it to the Call Stack, which effectively runs it.
+                Local scope contains things defined inside code blocks. A local variable has local scope and is only
+                accessible
+                where
+                it’s declared.
+            </p>
 
-Q-4: Ways to get undefined:
+            <p>
+                <b>Q-3: How event loop of Javascript works?</b>
+            </p>
 
-i. Variable that is not initialized will give undefined.
+            <p>
+                <b>Ans:</b> The Event Loop works to monitor the Call Stack and the Callback Queue. If the Call Stack is
+                empty,
+                the
+                Event Loop
+                will take the first event from the queue and will push it to the Call Stack, which effectively runs it.
 
-ii. Function with no return.
+            </p>
+            <p>
+                <b>Q-4: Ways to get undefined:</b>
+            </p>
 
-iii. parameter that is not passed will be undefined.
+            <p>i. Variable that is not initialized will give undefined.</p>
 
-iv. If return has nothing on the right side will return undefined.
+            <p>ii. Function with no return.</p>
 
-v. Property that doesn't exists on an object will give undefined.
+            <p>iii. parameter that is not passed will be undefined.</p>
 
-vi. Accessing array elements outside of the index range will will give undefined.
+            <p>iv. If return has nothing on the right side will return undefined.</p>
 
-vii. Deleting an element inside an array.
+            <p>v. Property that doesn't exists on an object will give undefined.</p>
 
-viii. Set a value directly to undefined.
+            <p>
+                vi. Accessing array elements outside of the index range will will give undefined.
+
+            </p>
+            <p>vii. Deleting an element inside an array.</p>
+
+            <p>viii. Set a value directly to undefined.</p>
+        </div>
+    </main>
+</body>
+
+</html>
